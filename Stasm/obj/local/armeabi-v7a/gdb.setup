@@ -1,0 +1,5 @@
+set solib-search-path ./obj/local/armeabi-v7a
+source /home/ns/Downloads/android-ndk-r10e/prebuilt/common/gdb/common.setup
+directory /home/ns/Downloads/android-ndk-r10e/platforms/android-9/arch-arm/usr/include /home/ns/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++ jni jni/../../opencv-android-sdk/native/jni/include/opencv jni/../../opencv-android-sdk/native/jni/include /home/ns/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include /home/ns/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include /home/ns/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/backward
+file ./obj/local/armeabi-v7a/app_process
+target remote :5039
